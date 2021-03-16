@@ -4,6 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pagination from 'react-bootstrap/Pagination';
 import {Container,Row,Col} from 'react-bootstrap';
+import CardColumns from 'react-bootstrap/CardColumns';
 import * as characters from './data/characters.json';
 import Chars from './chars';
 import Search from './Search'
@@ -20,7 +21,19 @@ class App extends Component{
     }
   }
   CharacterFind=(e)=>{
-    this.setState({characterfind: e});
+    let string1 = e.charAt(0).toUpperCase(); //tomamos el primer caracter y lo convertirmos a mayuscula
+    let string2 = e.substring(1,e.length); // desde el segundo caracter
+    let value = string1 + string2; //unimos
+    
+
+
+    this.setState({characterfind: value});
+    
+    // console.log(string1);
+    // console.log(string2);
+    // console.log(value);
+    
+   
 
   }
   //fetch
@@ -32,17 +45,15 @@ class App extends Component{
 
   //"id":3413 brinca a id":3417 entre muchos otros por lo que no hay 3983 characters
   // si no 1252, por lo que hay que tener en cuenta mientras iteramos.
+    /*la sentencia del return tiene que estar al laodo paera que funcione */
 
   recordCount(ch,key){
 
-    var record = (  <Col key={key}>  {/**la sentencia del return tiene que estar al laodo paera que funcione */}
-        <br/>
-          <Chars
+    var record = (  <Chars
           key={key} id={ch.id} title={ch.title} href={ch.href}
           picture= {ch.thumbnail} description={ch.description.text}
           />
-
-      </Col>)
+        )
 
   return record;
     }
@@ -83,11 +94,13 @@ class App extends Component{
 
        if (ch.title.includes(this.state.characterfind)){
        find.push(<Col key={key}>
-          <br/>
+          {/* <br/> */}
+          
             <Chars
             key={key} id={ch.id} title={ch.title} href={ch.href}
             picture= {ch.thumbnail} description={ch.description.text}
             />
+          
      {/* find2.push = [...find]; */}
         </Col>)
         // console.log(find)
@@ -187,20 +200,21 @@ class App extends Component{
              </Row>
            </div>
 
-  {/* for */}
-  <Row>
+ <Row className="justify-content-md-center" > {/*centrar */}
+  {/* for */}<CardColumns>
+  
    {/**la sentencia del return tiene que estar al laodo paera que funcione */}
    {/* para colocar una al lado de otra usa row y col  */}
-        <br/>
 
         {/* <h2>{this.state.idChar}</h2> */}
+        
         {this.state.characterfind.length > 0 ? find : itemsCharacters[this.state.idChar]}
+        
 
 
-
-  </Row>
-
-
+  
+      </CardColumns>
+  </Row>    
         </Container>
       </div>
 
