@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Api-Naruto-Vz/static/css/main.ca0f812b.chunk.css",
+    "main.css": "/Api-Naruto-Vz/static/css/main.49b0000a.chunk.css",
     "main.js": "/Api-Naruto-Vz/static/js/main.289039de.chunk.js",
     "main.js.map": "/Api-Naruto-Vz/static/js/main.289039de.chunk.js.map",
     "runtime-main.js": "/Api-Naruto-Vz/static/js/runtime-main.ca8ceffe.js",
@@ -12,14 +12,14 @@
     "static/js/3.e35224ef.chunk.js.map": "/Api-Naruto-Vz/static/js/3.e35224ef.chunk.js.map",
     "index.html": "/Api-Naruto-Vz/index.html",
     "static/css/2.5c573378.chunk.css.map": "/Api-Naruto-Vz/static/css/2.5c573378.chunk.css.map",
-    "static/css/main.ca0f812b.chunk.css.map": "/Api-Naruto-Vz/static/css/main.ca0f812b.chunk.css.map",
+    "static/css/main.49b0000a.chunk.css.map": "/Api-Naruto-Vz/static/css/main.49b0000a.chunk.css.map",
     "static/js/2.3fd5b8ab.chunk.js.LICENSE.txt": "/Api-Naruto-Vz/static/js/2.3fd5b8ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ca8ceffe.js",
     "static/css/2.5c573378.chunk.css",
     "static/js/2.3fd5b8ab.chunk.js",
-    "static/css/main.ca0f812b.chunk.css",
+    "static/css/main.49b0000a.chunk.css",
     "static/js/main.289039de.chunk.js"
   ]
 }
