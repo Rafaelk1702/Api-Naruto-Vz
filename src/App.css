@@ -89,10 +89,10 @@ column-count: 4 !important;
 
 .style-pagination{
   position: relative;
-  display: block;
+  /* display: block; */
   padding: .5rem .75rem;
-    margin-left: -1px;
+    /* margin-left: -1px; */
     line-height: 1.25;
-    background-color: rgba(207, 215, 246, 0.48);
+    background-color: rgba(5, 12, 41, 0.555);
     border-radius: 10px;
 }
