@@ -96,3 +96,12 @@ column-count: 4 !important;
     background-color: rgba(5, 12, 41, 0.555);
     border-radius: 10px;
 }
+
+.idioma {
+  z-index: 1;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+    background-color: #007bff;
+    border-color: #007bff;
+ }
