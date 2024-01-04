@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rafaelight.github.io/Api-Naruto-Vz/",
+  "homepage": "",
   "name": "naruto_api",
   "version": "0.1.0",
   "private": true,
@@ -11,10 +11,12 @@
     "gh-pages": "^3.2.3",
     "i18next": "^23.4.6",
     "i18next-http-backend": "^2.2.1",
+    "parse": "^4.2.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-i18next": "^13.2.0",
+    "react-router-dom": "^6.20.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
