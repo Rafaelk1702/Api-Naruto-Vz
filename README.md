@@ -71,3 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Data
 El .json se extrajo de : https://github.com/priyankapakhale/rest-naruto-api 
+
+___ Visitar pagina ____
+
+https://narutocharacters.info/
